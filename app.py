@@ -19,16 +19,16 @@ PROJECT_URL = os.environ.get('PROJECT_URL', '')
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'
 FILE_PATH = os.environ.get('FILE_PATH', './.cache')
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')
-UUID = os.environ.get('UUID', '20e6e496-cf19-45c8-b883-14f5e11cd9f1')
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')
+UUID = os.environ.get('UUID', '6ebc9a9f-5f99-4745-98c6-ebe159299ed9')
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nginx.hii.pp.ua:80')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
-NEZHA_KEY = os.environ.get('NEZHA_KEY', '')
-ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', '')
-ARGO_AUTH = os.environ.get('ARGO_AUTH', '')
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'sSS4zjyBhxT8fmEiCyqdliHSrVvV5gze')
+ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', 'streamlit.hii.pp.ua')
+ARGO_AUTH = os.environ.get('ARGO_AUTH', 'eyJhIjoiN2JiMzIyOTY2ZTBmZTgzOWY4MTM5MWVkNzZjYWU2YzUiLCJ0IjoiZGNiYTQ5NDUtYTk1My00NDQ1LWEyNzItZGUwZTBiOWZlYzc2IiwicyI6Ik9HTTFNVFF5Wm1RdFltWXlPUzAwTVdGaExXSXlZbVV0WWpNME5tTTNORGd6TWpFMyJ9')
 ARGO_PORT = int(os.environ.get('ARGO_PORT', '8001'))
 CFIP = os.environ.get('CFIP', 'www.visa.com.tw')
 CFPORT = int(os.environ.get('CFPORT', '443'))
-NAME = os.environ.get('NAME', 'Vls')
+NAME = os.environ.get('NAME', 'Stream')
 CHAT_ID = os.environ.get('CHAT_ID', '')
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
 PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) 
@@ -620,4 +620,5 @@ def main():
     handle_page_routing()
 
 if __name__ == "__main__":
+
     main()
